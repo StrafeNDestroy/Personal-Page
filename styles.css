@@ -151,7 +151,9 @@ a:hover {
 .row {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   width:40%;
+  flex: auto;
   margin: auto;
 
 }
