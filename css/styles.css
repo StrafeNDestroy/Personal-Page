@@ -1,28 +1,28 @@
 body {
-  color: #40514E;
+  color: #40514e;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66BFBF;
+  color: #66bfbf;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -30,25 +30,25 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #eaf6f6 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
 }
 
-a{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #e4f9f5;
   position: relative;
   padding-top: 100px;
 }
@@ -58,8 +58,8 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
-  margin : 50px 0 0 0;
+  background-color: #66bfbf;
+  margin: 50px 0 0 0;
   position: absolute;
   width: 100%;
   padding: 25px 0 25px 0;
@@ -75,10 +75,9 @@ a:hover {
 .pro {
   text-decoration: underline;
 }
-.profile-picture{
+.profile-picture {
   width: 300px;
   height: 300px;
-
 }
 .intro {
   width: 45%;
@@ -91,7 +90,7 @@ a:hover {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
@@ -112,7 +111,6 @@ a:hover {
   width: 15%;
   float: left;
   margin-right: 30px;
-
 }
 
 .chilli-img {
@@ -131,7 +129,7 @@ a:hover {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -151,21 +149,22 @@ a:hover {
 .row {
   display: flex;
   flex-wrap: wrap;
-  width:30%;
+  flex-direction: column;
   margin: auto;
-
+  flex: 1 1 100px;
+  width: 40%;
 }
 
 .column {
-  flex: 25%;
-  max-width: 15%;
-  padding: 0 4px;
-  margin: 0 30px 0 30px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .image-grid {
-  margin-top: 8px;
- vertical-align: middle;
- width: 100px;
- height: 100px;
+  margin: 5px 15px 5px 15px;
+  vertical-align: middle;
+  width: 5rem;
+  /*  width: 25%; */
+  /*  height: 40%; */
 }
